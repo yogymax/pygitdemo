@@ -7,3 +7,5 @@ class BooksSerializer(ModelSerializer):
     class Meta:
         model = Books
         fields = '__all__'
+
+print('inside books models....!')
