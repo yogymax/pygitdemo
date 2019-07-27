@@ -1,0 +1,87 @@
+
+
+
+	d3									master copy
+		settings.py	+d1					settings.py -- revision mismatch
+		loan
+
+
+
+
+		d3 -- cannot push -- revision mismatch
+		d3 -- cannnot pull- same file changes
+
+
+
+
+				settings.py -- d3 changes -- we have
+
+
+
+				push conflict ---
+						pull the code --
+							then push all the changes..
+
+				pull conflict
+					make a copy  -- for a file -- whichever have conflict
+					revert your local copy -- only that file-- not other changes
+					pull the changes -- you will get latest copy from master -- revision match
+					compare currnet local file + copied file -- you are aware abt ur changes--
+						make a changes in working copy...
+
+		offline[dev machine]					online
+wrkingcp		lclcp					branch			master
+												seniors person
+												code review k baad
+changes--	commit						push	 merge
+
+
+
+
+			clone -- get all changes from master -- will happen once
+			master -- latest code changes
+			revision -- unique no given by git
+			conflict -- push or pull
+			revert -- remove local changes
+			commit and push -- push changes to branch/master
+			pull -- get only those changes not with you -- lastest commited
+
+			commit		 -- local repo on devs machines
+			synechronize - just check working copy version with
+							master -- no action -- just view
+			add -- select the files whichever you want to commit`
+			index -- staging area -- local repo
+
+			head -- latest revision on master
+
+Git for windows..
+
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/yogymax/pygitdemo.git
+git push -u origin master
+
+
+
+		push -- commit + push -- wrk--lp--branch ---approve-- master
+		commit -- commit -- wrk -- lp
+		clone -- first time get entire code..master/branch apke machine pr
+		pull -- get latest changes only from master to your repo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
