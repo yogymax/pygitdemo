@@ -10,3 +10,7 @@ class Books(models.Model):
     class Meta:
         db_table = "book_details"
 
+
+
+
+print('inside books models')
