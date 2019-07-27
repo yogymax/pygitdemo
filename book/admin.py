@@ -3,3 +3,4 @@ from book.models import Books
 # Register your models here.
 
 admin.site.register(Books)
+print('added by other dev')
